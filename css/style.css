@@ -8429,13 +8429,13 @@ h1, h2, h3, h4, h5,
         background: #b3b3b3; }
   .owl-carousel.home-slider {
     position: relative;
-    height: 750px;
+    height: 70vh;
     z-index: 0; }
     .owl-carousel.home-slider .slider-item {
       background-size: cover;
       background-repeat: no-repeat;
       background-position: center center;
-      height: 750px;
+      height: 70vh;
       position: relative;
       z-index: 0; }
       @media (max-width: 1199.98px) {
@@ -8450,7 +8450,7 @@ h1, h2, h3, h4, h5,
         background: #000000;
         opacity: 0; }
       .owl-carousel.home-slider .slider-item .slider-text {
-        height: 750px;
+        height: 70vh;
         z-index: 0; }
         @media (max-width: 991.98px) {
           .owl-carousel.home-slider .slider-item .slider-text {
@@ -8469,7 +8469,7 @@ h1, h2, h3, h4, h5,
             opacity: 0; }
           @media (max-width: 1199.98px) {
             .owl-carousel.home-slider .slider-item .slider-text .one-third {
-              width: 85%; } }
+              width: 70%; } }
           @media (max-width: 991.98px) {
             .owl-carousel.home-slider .slider-item .slider-text .one-third {
               width: 100%;
@@ -8967,9 +8967,7 @@ h1, h2, h3, h4, h5,
     -webkit-transition: all 0.3s ease;
     -ms-transition: all 0.3s ease;
     transition: all 0.3s ease; }
-    @media (max-width: 767.98px) {
-      .project .overlay {
-        opacity: .2; } }
+    
   .project .text {
     max-width: 80%;
     z-index: 1;
@@ -8992,10 +8990,9 @@ h1, h2, h3, h4, h5,
       font-size: 12px;
       font-weight: 600; }
     @media (max-width: 767.98px) {
-      .project .text {
-        opacity: 1; }
+      
         .project .text span {
-          color: rgba(255, 255, 255, 0.8); } }
+          color: #000 } }
   .project:hover .overlay, .project:focus .overlay {
     opacity: .9; }
   .project:hover .text, .project:focus .text {
