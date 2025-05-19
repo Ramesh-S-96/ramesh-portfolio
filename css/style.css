@@ -8982,9 +8982,11 @@ h1, h2, h3, h4, h5,
     .project .text h3 {
       font-size: 20px; }
       .project .text h3 a {
-        color: #fff; }
+        color: #000; }
+        .project .text h3 a:hover {
+        text-decoration: underline; }
     .project .text span {
-      color: rgba(255, 255, 255, 0.8);
+      color: #000;
       text-transform: uppercase;
       letter-spacing: 2px;
       font-size: 12px;
@@ -9337,6 +9339,10 @@ textarea.form-control {
 
 .contact-section .contact-info p a {
   color: #1a1a1a; }
+
+.contact-section .contact-info p a:hover {
+  color: #ffbd39;
+}
 
 .contact-section .box {
   width: 100%;
